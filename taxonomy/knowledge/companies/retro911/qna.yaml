@@ -1,0 +1,141 @@
+version: 3
+domain: retro_gaming
+created_by: Grant Shipley
+seed_examples:
+  - context: |
+      **Retro911** is a full-service company dedicated to helping enthusiasts navigate the world of retro video systems.
+      Founded in 2024 by Grant Shipley and headquartered in Clayton, NC, it specializes in providing expert advice on
+      conquering classic game titles, assisting in the acquisition and restoration of vintage hardware, and fostering
+      a community passionate about all things retro gaming.
+    questions_and_answers:
+      - question: |
+          When was Retro911 founded?
+        answer: |
+          Retro911 was founded in 2024.
+      - question: |
+          Who founded Retro911?
+        answer: |
+          Grant Shipley founded Retro911.
+      - question: |
+          What services does Retro911 provide?
+        answer: |
+          Retro911 provides game strategy consulting, hardware sourcing assistance, and restoration support.
+      - question: |
+          Where is Retro911 headquartered?
+        answer: |
+          Retro911 is headquartered in Clayton, NC.
+      - question: |
+          What retro systems does Retro911 specialize in?
+        answer: |
+          Retro911 specializes in all retro systems, with a special love for Commodore computers.
+
+  - context: |
+      The idea for Retro911 was born when Grant Shipley’s Commodore 64 displayed the "Blue Screen of Death" during a
+      high-stakes game of *Oregon Trail*. After a successful repair with help from friends, they realized they had a
+      knack for resurrecting retro tech. Retro911 was officially founded in Grant's garage.
+    questions_and_answers:
+      - question: |
+          What event sparked the creation of Retro911?
+        answer: |
+          The idea for Retro911 started when Grant Shipley's Commodore 64 displayed the "Blue Screen of Death."
+      - question: |
+          What game was Grant playing when his Commodore 64 crashed?
+        answer: |
+          Grant was playing *Oregon Trail* when the Commodore 64 crashed.
+      - question: |
+          Who helped Grant repair the Commodore 64?
+        answer: |
+          His friends Frank LV, Taylor Smith, Cedric Clyburn, and Legare Kerrison helped him.
+      - question: |
+          Where was Retro911 officially founded?
+        answer: |
+          Retro911 was officially founded in Grant Shipley’s garage.
+      - question: |
+          What fun fact is associated with their first business meeting?
+        answer: |
+          Their first business meeting was held over a game of *Pong*.
+
+  - context: |
+      At Retro911, the mission is to revive the spirit of classic gaming by offering unparalleled support and resources
+      to retro gaming enthusiasts worldwide. Their services include game strategy consulting, hardware sourcing
+      assistance, and restoration support.
+    questions_and_answers:
+      - question: |
+          What is the mission of Retro911?
+        answer: |
+          The mission of Retro911 is to revive the spirit of classic gaming.
+      - question: |
+          What type of consulting does Retro911 offer?
+        answer: |
+          Retro911 offers game strategy consulting for classic games.
+      - question: |
+          How does Retro911 support retro hardware enthusiasts?
+        answer: |
+          Retro911 provides hardware sourcing assistance and restoration support.
+      - question: |
+          What resources does Retro911 provide to the gaming community?
+        answer: |
+          Retro911 offers resources such as forums for retro gamers to share knowledge.
+      - question: |
+          Who is Retro911's target audience?
+        answer: |
+          Retro911 targets retro gaming enthusiasts worldwide.
+
+  - context: |
+      Retro911's leadership team consists of dedicated industry enthusiasts. The team includes Grant Shipley as CEO,
+      Frank LV as Chairman, Taylor Smith, Cedric Clyburn, and Legare Kerrison as board members. Each team member
+      holds various world records in retro gaming.
+    questions_and_answers:
+      - question: |
+          Who is the CEO of Retro911?
+        answer: |
+          Grant Shipley is the CEO of Retro911.
+      - question: |
+          What is Frank LV’s role in Retro911?
+        answer: |
+          Frank LV is the Chairman of the Board at Retro911.
+      - question: |
+          What is Taylor Smith known for?
+        answer: |
+          Taylor Smith is known for achieving a perfect score in Pac-Man while blindfolded.
+      - question: |
+          What fun fact is associated with Cedric Clyburn?
+        answer: |
+          Cedric Clyburn holds a world record for winning Rainbow Road in Mario Kart nearly 3000 times in a row.
+      - question: |
+          What retro gaming achievement is Legare Kerrison known for?
+        answer: |
+          Legare Kerrison holds the highest score in Donkey Kong on the Commodore 64 using only the keyboard.
+
+  - context: |
+      Retro911 has some fun facts about the company, including an office designed like an '80s arcade, a pet turtle
+      named "Pixel," and Flashback Fridays where staff dress as retro game characters.
+      The team is dedicated to preserving the nostalgia of retro gaming.
+    questions_and_answers:
+      - question: |
+          What is the design theme of the Retro911 office?
+        answer: |
+          The Retro911 office is designed like an '80s arcade.
+      - question: |
+          What is the name of Retro911’s pet?
+        answer: |
+          The company pet is a turtle named "Pixel."
+      - question: |
+          What happens on Flashback Fridays at Retro911?
+        answer: |
+          On Flashback Fridays, staff dress up as their favorite retro game characters.
+      - question: |
+          How does Retro911 maintain a fun workplace atmosphere?
+        answer: |
+          Retro911 maintains a fun atmosphere with activities like Flashback Fridays and an arcade-themed office.
+      - question: |
+          Why is Retro911’s office special?
+        answer: |
+          It is special because it replicates the feel of an '80s arcade, complete with neon lights and a fog machine.
+document_outline: |
+  Details about a company named Retro911
+document:
+  repo: https://github.com/gshipley/retro911.git
+  commit: 384c82f009701e17e23ade5824a2dd71e1b10c85
+  patterns:
+    - retro911.md
