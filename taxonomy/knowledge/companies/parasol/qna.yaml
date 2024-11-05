@@ -21,14 +21,6 @@ seed_examples:
         answer: |
           The Claim History feature contains past insurance claims data, including claim amounts, claim types,
           frequency, and duration, essential for evaluating a policyholder's risk.
-      - question: What details are provided under the Policy Details feature?
-        answer: |
-          Policy Details encompass information about the insurance policies, such as coverage type, policy duration,
-          premium amounts, and deductibles, which help in determining policy pricing.
-      - question: What are Risk Factors in the context of Parasol Insurance Claims data?
-        answer: |
-          Risk Factors include variables like credit score, driving record, and health status, which indicate the
-          potential risks associated with a policyholder and are crucial for risk assessment.
   - context: |
       Parasol Insurance’s policies related to car rental coverage, loss of income
       insurance, and the Apex Plus package. It explains when and how the company covers daily rental charges, the
@@ -49,14 +41,6 @@ seed_examples:
         answer: |
           Parasol Insurance starts covering daily rental charges from the date the vehicle is undriveable or when it is
           left at a repair facility, provided the loss is covered under the policy.
-      - question: When will payments for Car Insurance from Parasol Insurance end?
-        answer: |
-          Payments for car rental end when the vehicle is repaired, replaced, or seven days after Parasol offers to pay
-          for the loss if the vehicle is stolen and not recovered.
-      - question: What is the Parasol insurance Apex plus package?
-        answer: |
-          The Apex Plus package offers additional coverage, including loss of income insurance and uninsured driver
-          insurance, enhancing the standard policy coverage.
   - context: |
       Parasol Insurance is a well-known company founded in 1936 by James Falkner and James Labocki Sr. It originally
       targeted federal government employees and enlisted military officers. In 2024, Parasol was acquired by Joe
@@ -77,15 +61,6 @@ seed_examples:
         answer: |
           Joe Fernandes acquired Parasol Insurance in 2024 and is the head of InstructLab, which is the parent company
           of Parasol.
-      - question: What are the main products and services offered by Parasol Insurance?
-        answer: |
-          Parasol Insurance offers auto insurance, homeowners insurance, renters insurance, boat insurance, RV
-          insurance, identity theft protection, life insurance, business insurance, and various other coverages through
-          partnerships with other insurance companies.
-      - question: What are some of the discounts offered by Parasol Insurance?
-        answer: |
-          Parasol Insurance offers discounts such as multi-policy, good driver, military, federal employee, and student
-          discounts.
   - context: |
       In Alaska, drivers must be at least 14 years old to obtain an instruction permit. Teens must hold a learner's
       permit for at least six months and complete 40 hours of supervised driving (including 10 hours at night or in
@@ -106,38 +81,6 @@ seed_examples:
       - question: What restrictions are placed on provisional license holders under 18 in Alaska?
         answer: |
           Provisional license holders under 18 in Alaska are prohibited from riding with passengers under the age of 21
-          and from driving between 1:00 AM and 5:00 AM, unless accompanied by a driver older than 21.
-      - question: At what age are driving restrictions lifted for teen drivers in Alaska?
-        answer: |
-          Driving restrictions for teen drivers in Alaska are lifted at age 18.
-      - question: What is the minimum age for a teen to practice driving in New Hampshire?
-        answer: |
-          Teen drivers in New Hampshire can begin practicing driving at age 15 ½ while accompanied by a licensed adult
-          at least 25 years of age.
-      - question: What are the requirements for obtaining a New Hampshire Youth Operator License?
-        answer: |
-          To obtain a New Hampshire Youth Operator License, teens must be at least 16 years old, pass a state-approved
-          driver education course, provide written permission from a parent or guardian, log at least 40 hours of
-          supervised driving practice (including 10 hours of nighttime driving), and pass a vision screening, a written
-          test, and a driver road test.
-      - question: What are the driving restrictions for Youth Operator License holders under 18 in New Hampshire?
-        answer: |
-          Youth Operator License holders under 18 in New Hampshire are prohibited from driving between 1:00 AM and 4:00
-          AM and may not drive with more than one passenger younger than age 25 who is not a family member during the
-          first 6 months of being licensed, unless accompanied by a licensed driver at least 25 years old.
-      - question: How much is the application fee for a New Hampshire Youth Operator License?
-        answer: |
-          The application fee for a New Hampshire Youth Operator License is $50.
-      - question: How is the New Hampshire Youth Operator License oriented, and what special marking does it have?
-        answer: |
-          The New Hampshire Youth Operator License is oriented vertically and states: "Under 21 until [date]". It
-          expires on the individual's 21st birthday.
-      - question: |
-          When can a New Hampshire Youth Operator License holder obtain a horizontally-oriented driver's
-          license?
-        answer: |
-          A New Hampshire Youth Operator License holder can obtain a horizontally-oriented driver's license on their
-          21st birthday.
   - context: |
       Provides an overview of the key features and elements within Parasol Insurance's claims datasets. It
       covers topics such as class imbalance, which poses challenges for predictive modeling due to the disproportionate
@@ -158,40 +101,6 @@ seed_examples:
       - question: What does the term 'policy id' refer to in the dataset?
         answer: |
           'Policy id' is a unique identifier for the insurance policy.
-      - question: How does the 'customer age' feature influence insurance claims?
-        answer: |
-          'Customer age' refers to the age of the policyholder, which can influence the likelihood of claims.
-      - question: What impact does 'vehicle age' have on claim probability?
-        answer: |
-          'Vehicle age' affects the probability of claims due to factors like wear and tear.
-      - question: Why is the 'model' of the vehicle included in the dataset?
-        answer: |
-          The 'model' of the vehicle could impact the claim frequency due to model-specific characteristics.
-      - question: How does the 'fuel type' of a vehicle influence the risk profile?
-        answer: |
-          'Fuel type' (e.g., Petrol, Diesel, CNG) might influence the risk profile and claim likelihood of the vehicle.
-      - question: What do 'max torque' and 'max power' describe in the dataset?
-        answer: |
-          'Max torque' and 'max power' describe the engine performance characteristics, which could relate to the
-          vehicle’s mechanical condition and claim risks.
-      - question: What does the 'engine type' feature indicate?
-        answer: |
-          'Engine type' indicates the type of engine, which might have implications for maintenance and claim rates.
-      - question: Why is 'region code' important in the insurance claims data?
-        answer: |
-          'Region code' represents the geographical region of the policyholder, as claim patterns can vary regionally.
-      - question: What does 'region density' show, and why is it relevant?
-        answer: |
-          'Region density' shows the population density of the policyholder’s region, which could correlate with
-          accident and claim frequencies.
-      - question: How does the number of 'airbags' in a vehicle influence claim probability?
-        answer: |
-          The number of 'airbags' in a vehicle indicates its safety level, which can influence the probability of
-          claims.
-      - question: What does the 'claim status' feature indicate in the dataset?
-        answer: |
-          'Claim status' indicates whether a claim was made (1) or not (0), and is the dependent variable the model aims
-          to predict.
 document_outline: |
   Information about the Parasol insruance claims data glossary, terms and how to read and understand claims.
   The information is related to the Parasol insurance internal records and systems.
@@ -200,7 +109,3 @@ document:
   commit: 07227df21a3a786d15ae5b88ece2c33bd78ee36a
   patterns:
     - Parasol_auto_insurance.md
-    - Insurance_claims_data.md
-    - teen_driving_rules.md
-    - claims_cost_data.md
-    
